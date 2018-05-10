@@ -1,0 +1,147 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300';
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+
+html{
+  overflow-y: scroll;
+}
+
+body{
+  margin: 8px auto;
+  padding: 8px;
+  background-color:#fff;
+  text-align: justify;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  width: 1200px;
+}
+
+.site-header{
+  float: left;
+  width: 300px;
+  height: 100%;
+  position: absolute;
+
+
+}
+.site-header img {
+  border-radius: 5px/5px;
+  border: 1px solid black;
+  width: 300px
+}
+
+.navbar{
+  padding: 1em;
+  width: 200px;
+  margin-top: 30px;
+
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li a {
+  text-decoration: none;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  height: 24px;
+
+}
+.navbar li a:link, .navbar li a:visited {
+  color: #777;
+  display: block;
+  background: url(../img/menu8.gif);
+  padding: 8px 0 0 20px;
+}
+.navbar li a:hover {
+  color: #257EB7;
+  padding: 8px 0 0 25px;
+}
+.navbar li a:active{
+  color: #fff;
+  padding: 8px 0 0 25px;
+}
+
+
+
+
+.byline{
+  padding: 0.5em;
+  border: 1px groove #9c9 ;
+  width: 600px;
+  overflow: auto;
+  margin: 8px;
+  margin-top: 30px;
+  background-color:#FEEAEA;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.byline img{
+  display: inline-block;
+  height: 100px; width: 100px;
+  vertical-align: top;
+  border: 1px solid red;
+}
+
+.jag{display: inline-block; width: 450px;
+padding-left: 20px; text-align: justify;
+}
+
+
+.me{width: 800px;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 10px
+}
+
+article{
+
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  width: 800px;
+  margin-top: 30px;
+  overflow: auto;
+}
+.article{
+  border-bottom: 1px solid black;
+
+}
+
+.byline2{margin-bottom: 30px;}
+.byline3{
+    border-top: 2px dashed #fee;
+}
+
+.redovisning{
+  width: 500px;
+  text-align: justify;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin-left: 50px;
+  overflow: auto;
+}
+
+main{
+  min-height: 40em;
+  margin-top: 20px;
+  clear: both;
+  padding-left: 350px;
+  overflow: auto;
+
+}
+footer{font-size: 0.9em; clear: both;}
+
+.lankar{padding-top: 20px; text-align: center}
+.socialNetwork{text-align: center}
+.author{font-size: 12px; overflow: auto; }
+.byline2{font-size: 12px; overflow: auto; color: red}
+hr{border-color: #9c9; border: 1px solid green;  }
+.text50{padding-left: 100px; width: 600px; color: orange}
+h2{color: green; }
+.multipageText{margin-left: 50px}
+/**
+ * responsive
+ */
+@media (max-width: 980px) {
+    body {
+        width: auto;
+        background-color: yellow;
+    }
+}
