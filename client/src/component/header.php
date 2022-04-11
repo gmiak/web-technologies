@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0;">
     <title> <?=$title ?> </title>
-    <link href="css/third.css" rel="stylesheet">  <!-- <link href="<?=$stylesheet?>" rel="stylesheet"> -->
-    <link rel='shortcut icon' href='img/favicon.ico'/>
+    <!-- <link href="client/src/style/style.css" rel="stylesheet"> -->  <link href="<?=$stylesheet?>" rel="stylesheet"> 
+    <link rel='shortcut icon' href='client/assets/ico/favicon.ico'/>
 </head>
 
+
 <header class="site-header">
-        <img src="img/logo.jpg" alt="logo" />
+        <img src="client/assets/logo/logo.jpg" alt="logo" />
         <nav class="navbar">
           <ul class="selected">
-            <li><a class="<?= basename($_SERVER['REQUEST_URI']) == "me.php" ?
-             "selected" : ""; ?>" href="me.php">Hem</a></li>
+            <li><a class="<?= basename($_SERVER['REQUEST_URI']) == "index.php" ?
+             "selected" : ""; ?>" href="index.php">Hem</a></li>
             <li><a class="selected" href="report.php">Redovisning</a></li>
             <li><a class="selected" href="multipage.php">multipage</a></li>
             <li><a class="selected" href="stylechooser.php">Stylechooser</a></li>
@@ -23,7 +24,7 @@
         </nav>
 
         <hr/>
-        <form method="post" action="config.php">
+        <form method="post" action="session.php">
 
         <label>Select the stylesheet.<br>
         <select name="style">
@@ -36,8 +37,9 @@
         <input type="submit" name="doIt" value="Change the stylesheet">
 
         </form>
+        
 
         <hr/>
-        <p>Value of the current stylesheet key = '<?=$key?>'.</p>
+        <p>Value of the current stylesheet key = "<?=$key?>". gdgdg</p>
 
 </header>
