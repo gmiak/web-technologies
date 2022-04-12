@@ -26,6 +26,10 @@ switch ($page) {
         $file = "$page.php";
         include("client/src/view/multipage/$file");
         break;
+    case 'stylechooser':
+        $file = "$page.php";
+        include("client/src/view/stylechooser/$file");
+        break;
     default:
         include("client/src/view/home.php");
 }

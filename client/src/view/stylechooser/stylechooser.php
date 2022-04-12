@@ -1,20 +1,19 @@
-<?include("config.php");?>
 
 <?
 
 
 // Get the selected page, or the default one
-$page = (isset($_GET['page'])) ? $_GET['page'] : "intro";
+$pagestyle = (isset($_GET['stylepage'])) ? $_GET['stylepage'] : "intro";
 
 
 
 // Where are the content-files
-$dir  = __DIR__ . "/stylechooser/";
+$dir  = __DIR__ . "/content_stylechooser";
 
 
 
 // Array with all valid pages
-$multipage = [
+$multipagestyle = [
     "stylechooser"    => "intro.php",
     "intro"    => "intro.php",
     "current"  => "current-value.php",
@@ -28,26 +27,20 @@ $multipage = [
 
 
 // Get the contentfile to include
-if (isset($multipage[$page])) {
-    $file = $multipage[$page];
+if (isset($multipagestyle[$pagestyle])) {
+    $file = $multipagestyle[$pagestyle];
 } else {
-    die("The value of ?page=" . htmlentities($page) . " is not recognized as a valid page.");
+    die("The value of ?page=" . htmlentities($pagestyle) . " is not recognized as a valid page.");
 }
 
 
 
 ?>
-<?php
-    $title="Min stylechooser|htmlphp";
-     include("incl/header.php");
-?>
-
 
 
 <main>
     <article>
-        <?php include("stylechooser/aside.php")?>
+        <?php include("content_stylechooser/aside.php")?>
         <?php include("$dir/$file")?>
     </article>
 </main>
-<?php include("incl/footer.php");?>
