@@ -1,8 +1,3 @@
-<?include("config.php");?>
-<?php
-$title="Min redovisning-sida|htmlphp";
-include("incl/header.php");
-?>
 <main>
 <article>
 
@@ -328,4 +323,3 @@ jag jobbar fortfarande på det.
 
 </article>
 </main>
-<?php include("incl/footer.php");?>

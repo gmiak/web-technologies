@@ -6,7 +6,6 @@ html{overflow-y: scroll;}
 body{
   margin: 8px auto;
   padding: 8px;
-  background-color:#fff;
   text-align: justify;
   font-family: 'Trebuchet MS', Arial, sans-serif;
   width: 1200px;
@@ -120,10 +119,8 @@ article{
 }
 
 .redovisning{
-  width: 500px;
   text-align: justify;
   font-family: 'Trebuchet MS', Arial, sans-serif;
-  margin-left: 50px;
   overflow: auto;
 }
 

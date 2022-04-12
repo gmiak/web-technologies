@@ -14,8 +14,8 @@
         <nav class="navbar">
           <ul class="selected">
             <li><a class="<?= basename($_SERVER['REQUEST_URI']) == "index.php" ?
-             "selected" : ""; ?>" href="index.php">Hem</a></li>
-            <li><a class="selected" href="report.php">Redovisning</a></li>
+             "selected" : "";?>" href="index.php?page=home">Hem </a></li>
+            <li><a class="selected" href="index.php?page=report" >Redovisning</a></li> <!-- TODO: Create an 404 page when page doesnt exist -->
             <li><a class="selected" href="multipage.php">multipage</a></li>
             <li><a class="selected" href="stylechooser.php">Stylechooser</a></li>
             <li><a class="selected" href="search.php">Sökmotor</a></li>
@@ -40,6 +40,7 @@
         
 
         <hr/>
-        <p>Value of the current stylesheet key = "<?=$key?>". gdgdg</p>
+        <p>Value of the current stylesheet key = "<?=$key?>".</p>
+        <p>Value of the current page = "<?=$page?>".</p>
 
 </header>
