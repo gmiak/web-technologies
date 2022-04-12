@@ -83,7 +83,7 @@ a:active{ color: #00f;}
   overflow: auto;
   margin: 8px;
   margin-top: 30px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script'; /*, cursive;*/
 
 }
 .byline img{

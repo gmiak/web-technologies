@@ -41,15 +41,15 @@ body{
 }
 .navbar li a {
   text-decoration: none;
-  voice-family: "\"}\"";
-  voice-family: inherit;
+  /**voice-family: "\"}\"";
+  voice-family: inherit; **/
   height: 24px;
 
 }
 .navbar li a:link, .navbar li a:visited {
   color: #777;
   display: block;
-  background: url(../../assets/img/menu8.gif);
+  background: url(client/assets/img/menu8.gif);
   padding: 8px 0 0 20px;
 }
 .navbar li a:hover {
@@ -72,7 +72,7 @@ body{
   margin: 8px;
   margin-top: 30px;
   background-color:#FEEAEA;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script'; /*, cursive;*/
 
 }
 

@@ -4,20 +4,22 @@
 
   <div class="byline">
 
-         <p><img src="img/mesmall.jpg" alt="me-small" />
-         <span class="jag"><strong>Georges Kayembe</strong> <em> En student som har börjat läsa webbprogrammering vid Blekinge Tekniska Högskola.
-           Han har tidigare läst teknikprogrammet (Informations- och medieteknik) vid Fässbergymnasiet i Möldal.
-           På kvällarna Georges sysllar med webbutveckling genom att utveckla sina projekt och bygga hemsidor till exempel
-           www.easyfysik.se </em>
+         <p><img src="client/assets/img/mesmall.jpg" alt="me-small" />
+         <span class="jag">
+           <strong>Georges Kayembe</strong>
+           Computer programming & Web development. 
+           Science Enthusiast. Amateur photographer. 
+           I do stuff like HTML, PHP, SQL, Linux, Bash, 
+           Python, Java, Flutter & Dart.
          </span></p>
   </div>
 
   <div class="socialNetwork">
     <p> <strong>Följa mig på : </strong></p>
-    <p><a href=""><img src="img/facebook.png" alt="facebook-logo"></a>
-    <a href=""><img src="img/instagram.png" alt="instagram-logo"></a>
-    <a href=""><img src="img/twitter.png" alt="twitter-logo"></a>
-    <a href=""><img src="img/youtube.png" alt="youtube-logo"></a></p>
+    <p><a href=""><img src="client/assets/img/facebook.png" alt="facebook-logo"></a>
+    <a href=""><img src="client/assets/img/instagram.png" alt="instagram-logo"></a>
+    <a href=""><img src="client/assets/img/twitter.png" alt="twitter-logo"></a>
+    <a href=""><img src="client/assets/img/youtube.png" alt="youtube-logo"></a></p>
   </div>
 
 

@@ -9,4 +9,4 @@ include("client/src/component/header.php");?>
 
 
 
-<?php include("incl/footer.php");?>
+<?php include("client/src/component/footer.php");?>
