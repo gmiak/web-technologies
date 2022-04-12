@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0;">
     <title> <?=$title ?> </title>
-    <!-- <link href="client/src/style/style.css" rel="stylesheet"> -->  <link href="<?=$stylesheet?>" rel="stylesheet"> 
+    <link href="<?=$stylesheet?>" rel="stylesheet"> 
     <link rel='shortcut icon' href='client/assets/ico/favicon.ico'/>
 </head>
 
@@ -24,7 +24,7 @@
         </nav>
 
         <hr/>
-        <form method="post" action="session.php">
+        <form method="post" action="index.php"> <!-- TODO: Change the style and stay in the current page -->
 
         <label>Select the stylesheet.<br>
         <select name="style">

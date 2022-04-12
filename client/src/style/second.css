@@ -49,7 +49,7 @@ body{
 .navbar li a:link, .navbar li a:visited {
   color: #777;
   display: block;
-  background: url(../img/menu8.gif);
+  background: url(../../assets/img/menu8.gif);
   padding: 8px 0 0 20px;
 }
 .navbar li a:hover {

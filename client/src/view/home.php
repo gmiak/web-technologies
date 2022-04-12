@@ -9,7 +9,7 @@
            dag mitt i Maj månad </p>
         </div>
 
-         <p><img src="img/me.jpg" class="me" alt="Bild på charlie"/></p>
+         <p><img src="client/assets/img/me.jpg" class="me" alt="Bild på charlie"/></p>
 
       </header>
 
@@ -34,7 +34,7 @@
             <h2>Om mitt liv </h2>
             <p> Mitt liv här och nu : kärlek - plugg - mat - natur - och musik!</p>
         </div>
-          <p><img src="img/henne.jpg" class="me" alt="bilp på henne"/>
+          <p><img src="client/assets/img/henne.jpg" class="me" alt="bilp på henne"/>
       </header>
 
         <div class="text50">
