@@ -3,15 +3,28 @@ include("server/src/service/session.php");
 $title="Min me-sida|htmlphp";
 include("client/src/component/header.php");?>
 
-<?php switch (htmlentities($_GET['page'])) {
-    case "home":
-        include("client/src/view/home.php");
+<?php 
+
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+
+is_string($page) or is_null($page) or die("Incoming value for page must be a string.");
+
+
+$file = null;
+
+switch ($page) {
+
+    case 'home':
+        $file = "$page.php";
+        include("client/src/view/$file");
         break;
-    case "report":
-        include("client/src/view/report.php");
+    case 'report':
+        $file = "$page.php";
+        include("client/src/view/$file");
         break;
-    case 2:
-        echo "i equals 2";
+    case 'multipage':
+        $file = "$page.php";
+        include("client/src/view/multipage/$file");
         break;
     default:
         include("client/src/view/home.php");

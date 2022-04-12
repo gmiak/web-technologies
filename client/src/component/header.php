@@ -15,8 +15,8 @@
           <ul class="selected">
             <li><a class="<?= basename($_SERVER['REQUEST_URI']) == "index.php" ?
              "selected" : "";?>" href="index.php?page=home">Hem </a></li>
-            <li><a class="selected" href="index.php?page=report" >Redovisning</a></li> <!-- TODO: Create an 404 page when page doesnt exist -->
-            <li><a class="selected" href="multipage.php">multipage</a></li>
+            <li><a class="selected" href="index.php?page=report">Redovisning</a></li> <!-- TODO: Create an 404 page when page doesnt exist -->
+            <li><a class="selected" href="index.php?page=multipage">multipage</a></li>
             <li><a class="selected" href="stylechooser.php">Stylechooser</a></li>
             <li><a class="selected" href="search.php">Sökmotor</a></li>
             <li><a class="selected" href="admin.php">Admin</a></li>

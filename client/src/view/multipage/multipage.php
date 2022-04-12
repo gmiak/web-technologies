@@ -1,53 +1,45 @@
-<?include("config.php");?>
 
 <?php
 //HAntera vad användare skicka via $_GET
 
-$page = isset($_GET['page']) ? $_GET['page'] : 'intro';
+$multipage = isset($_GET['multipage']) ? $_GET['multipage'] : 'intro';
 
 // testa och validera inkommande variabler
-is_string($page) or is_null($page)
+is_string($multipage) or is_null($multipage)
   or die("Incoming value for page must be a string.");
 
-// försätta jobba i säkerhet var_dump($page);
+// försätta jobba i säkerhet var_dump($multipage);
 
 
 $dir  = __DIR__ . "/content";
 $file = null;
 
 
-switch ($page) {
+switch ($multipage) {
 
     case 'intro':
-        $file = "$page.php";
+        $file = "$multipage.php";
         break;
 
     case 'print-server':
-        $file = "$page.php";
+        $file = "$multipage.php";
         break;
 
     case 'print-get':
-        $file = "$page.php";
+        $file = "$multipage.php";
         break;
 
     case 'get-samples':
-        $file = "$page.php";
+        $file = "$multipage.php";
         break;
 
 
     default:
-        die("The value of ?page=" . htmlentities($page) . "  is not recognized as a valid pages.");
+        die("The value of ?page=" . htmlentities($multipage) . "  is not recognized as a valid pages.");
 
 }
 
 ?>
-
-<?php
-    $title="Min multisida|htmlphp";
-     include("incl/header.php");
-?>
-
-
 
 <main>
     <article>
@@ -57,4 +49,4 @@ switch ($page) {
     </article>
 </main>
 
-<?php include("incl/footer.php");?>
+
