@@ -31,9 +31,9 @@ switch ($page) {
         $file = "$page.php";
         include("client/src/view/stylechooser/$file");
         break;
-    case 'search':
+    case 'admin':
         $file = "$page.php";
-        include("client/src/view/$file");
+        include("client/src/view/admin/$file");
         break;
     default:
         include("client/src/view/home.php");

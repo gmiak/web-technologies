@@ -19,7 +19,7 @@
             <li><a class="selected" href="index.php?page=multipage">multipage</a></li>
             <li><a class="selected" href="index.php?page=stylechooser">Stylechooser</a></li>
             <li><a class="selected" href="search.php?">Sökmotor</a></li>
-            <li><a class="selected" href="admin.php">Admin</a></li>
+            <li><a class="selected" href="index.php?page=admin">Admin</a></li>
           </ul>
         </nav>
 

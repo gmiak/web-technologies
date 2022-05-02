@@ -1,6 +1,5 @@
 <?php
 include("server/src/service/session.php");
-include("server/src/service/config.php");
 $title="Min me-sida|htmlphp";
 include("client/src/component/header.php");?>
 
@@ -34,10 +33,10 @@ include("client/src/component/header.php");?>
 
         } elseif ($search == 'lista') {
           # code...
-            echo showResult();
+            echo "showResult()";
         } else {
             $value = $search;
-            echo GetandPrintResult($value);
+            echo "GetandPrintResult($value)";
         }
 
         ?>
