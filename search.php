@@ -1,8 +1,8 @@
-<?include("config.php");?>
 <?php
+include("server/src/service/session.php");
+include("server/src/service/config.php");
 $title="Min me-sida|htmlphp";
-include("incl/header.php");?>
-
+include("client/src/component/header.php");?>
 
 <main>
   <article>
@@ -46,12 +46,8 @@ include("incl/header.php");?>
       </div>
 
 
-
   </article>
 </main>
 
 
-
-
-
-<?php include("incl/footer.php");?>
+<?php include("client/src/component/footer.php");?>

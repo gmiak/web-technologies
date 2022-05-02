@@ -1,5 +1,6 @@
 <?php
 include("server/src/service/session.php");
+include("server/src/service/config.php");
 $title="Min me-sida|htmlphp";
 include("client/src/component/header.php");?>
 
@@ -29,6 +30,10 @@ switch ($page) {
     case 'stylechooser':
         $file = "$page.php";
         include("client/src/view/stylechooser/$file");
+        break;
+    case 'search':
+        $file = "$page.php";
+        include("client/src/view/$file");
         break;
     default:
         include("client/src/view/home.php");
